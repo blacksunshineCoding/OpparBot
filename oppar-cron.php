@@ -4,13 +4,13 @@ include_once('twitteroauth-master/autoload.php');
 
 use Abraham\TwitterOAuth\TwitterOAuth;
 
-die('Wrong Account was set');
+die('Enter the right keys/secrets, remove this line and add the cronjob to make the magic happen!');
 
 
-$consumerKey = '******************************';
-$consumerSecret = '********************************';
-$accessToken = '******************************************';
-$accessTokenSecret = '**********************************************';
+$consumerKey = 'ENTER_CONSUMER_KEY';
+$consumerSecret = 'ENTER_COSTUMER_SECRET';
+$accessToken = 'ENTER_ACCESS_TOKEN';
+$accessTokenSecret = 'ENTER_ACCESS_TOKEN_SECRET';
 
 $connection = new TwitterOAuth($consumerKey, $consumerSecret, $accessToken, $accessTokenSecret);
 
